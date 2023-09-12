@@ -1,0 +1,29 @@
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+.menu-items li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-items li a:hover {
+  background-color: #f0f0f0;
+}
